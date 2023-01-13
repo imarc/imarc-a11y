@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const cypress = require('cypress')
 const yargs = require('yargs')
 
