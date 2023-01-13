@@ -7,6 +7,7 @@ const scan = ({ url, main }) => {
   console.log(`you have run scan for url ${url} main content ${main}`)
 
   cypress.run({
+    configFile: __dirname + '/cypress.config.js',
     config: {
       baseUrl: url,
       setupNodeEvents (on, config) {
